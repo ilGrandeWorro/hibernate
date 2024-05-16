@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Enrollments {
+
     @Id
     @GeneratedValue
     private long id;

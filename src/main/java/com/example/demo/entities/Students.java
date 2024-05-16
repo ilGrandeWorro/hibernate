@@ -22,6 +22,7 @@ public class Students {
 
     @Column(nullable = false)
     private String firstName;
+
     @Column(unique = true, nullable = false)
     private String email;
 }
